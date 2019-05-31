@@ -76,11 +76,11 @@ I created a set of all of the unique id's from the explore recommendations list 
   * *Attributes*
   
 
-<p align="center">
-Grab a seat on the patio if you've got kids--there's a park just beyond the fence!
+<p align="center" font='12'>
+"Grab a seat on the patio if you've got kids--there's a park just beyond the fence!
 happy hour: 3-7
 Everything! Love carnitas!
-The best tacos west of the Mississippi and Norte del Mexico
+The best tacos west of the Mississippi and Norte del Mexico"
 </p>
 
 ### Image Data:
