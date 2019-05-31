@@ -32,9 +32,9 @@ Foursquare Places API:
 Foursquare API provides data centered around location. Their API is very developer-friendly; many corporations use the Foursquare API for their apps today. The terms and conditions are less strict compared to alternative API's, especially for commercial use, which was an important component for Choosie.
 
 ## 3 GET requests
-  *categories (147 total)*
-  *explore (uses keyword to return recommendations)*
-  *details (single query using venue unique id)*
+  * *categories (147 total)*
+  * *explore (uses keyword to return recommendations)*
+  * *details (single query using venue unique id)*
   
 Through the categories GET request, I gained insight about all of the categories used in the Foursquare app. It is divided up into main categories that serve as umbrella categories. And below those main categories, there are two levels of subcategories. For example, the main category I used for my GET request was 'Food'. And under 'Food' were subcategories, such as "Indian Restaurants", and "Mexican Restaurants", and under those subcategories were sub-level-2 categories, such as "Dosa", "South Indian", "North Indian", and "Taco Places" and "Burrito Places", respectively. In the dataset I used, under "Food", there were 90 subcategories and 56 sub-level-2 categories, for a total of 147 categories.
 
