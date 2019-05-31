@@ -1,8 +1,6 @@
 ********************
 # Exploring Boulder Restaurants
 ********************
-What are the dining options available in Boulder? 
-What are the categories and features to choose from in those dining options?
 
 ## Table of Contents
 1. [Background](#Background)
