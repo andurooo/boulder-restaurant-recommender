@@ -25,7 +25,9 @@ What are the dining options available in Boulder? What are the categories and fe
       * Identify categorical, numerical and textual data
 
 # Data
-Foursquare Places API: https://developer.foursquare.com/places-api
+Foursquare Places API: 
+[ source](https://developer.foursquare.com/places-api)
+</p>
 
 Foursquare API provides data centered around location. Their API is very developer-friendly; many corporations use the Foursquare API for their apps today. Also, the terms and conditions are less strict compared to alternative API's, especially for commercial use.
 
