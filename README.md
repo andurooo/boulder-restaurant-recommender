@@ -16,7 +16,7 @@ Table of Contents
 I am currently working with with Choosie, an early-stage startup based in Boulder, whose mission is to take the stress out of dining out. Choosie aspires to achieve that by providing personalized recommendations, both for you and your group. Their first target market is Boulder, CO. 
 
 <p align="center">
-<img src= >
+<img src='choosie_food.png'>
   
 ## Question: What are the dining options available in Boulder? What are the categories and features to selecting from when choosing a restaurant?
 
