@@ -7,7 +7,7 @@ What are the categories and features to choose from in those dining options?
 Table of Contents
 1. [Background](#Background)
 2. [Objective](#Objective)
-3. [Data/Approach](#Data/Approach)
+3. [Data](#Data)
 4. [Challenges](#Challenges)
 5. [Findings](#Findings)
 6. [Next Steps](#Next-Steps)
@@ -22,7 +22,8 @@ I am currently working with with Choosie, an early-stage startup based in Boulde
 
 # Objective
   * Gather data on Boulder restaurants
-  * Perform exploratory data analysis (EDA) 
+  * Perform exploratory data analysis (EDA)
+      * Identify categorical, numerical and textual data
 
 # Data
 
