@@ -18,7 +18,8 @@ Choosie's mission is to take the stress out of dining out. They aspire to achiev
 <p align="center">
 <img src='choosie_food.png'>
   
-## Question: What are the dining options available in Boulder? What are the categories and features to selecting from when choosing a restaurant?
+## Question: 
+What are the dining options available in Boulder? What are the categories and features to selecting from when choosing a restaurant?
 
 # Objective
   * Gather data on Boulder restaurants
