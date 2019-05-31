@@ -86,5 +86,9 @@ The best tacos west of the Mississippi and Norte del Mexico"
 ### Image Data:
   * *Photos*
 
-
+# Future Steps
+1. Gather user data and perform EDA
+2. Expand analysis on dataframe in preparation for feature selection & modeling
+3. Create database/data pipeline before scaling (i.e. MongoDB, Spark, AWS)
+4. Webscrape Boulder Dining website, if needed
 
