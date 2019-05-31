@@ -29,7 +29,7 @@ Foursquare Places API:
 [ source](https://developer.foursquare.com/places-api)
 </p>
 
-Foursquare API provides data centered around location. Their API is very developer-friendly; many corporations use the Foursquare API for their apps today. Also, the terms and conditions are less strict compared to alternative API's, especially for commercial use.
+Foursquare API provides data centered around location. Their API is very developer-friendly; many corporations use the Foursquare API for their apps today. The terms and conditions are less strict compared to alternative API's, especially for commercial use, which was an important component for Choosie.
 
 ## 3 GET requests
   *categories (147 total)
