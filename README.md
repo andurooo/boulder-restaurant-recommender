@@ -4,7 +4,7 @@
 What are the dining options available in Boulder? 
 What are the categories and features to choose from in those dining options?
 
-Table of Contents
+##Table of Contents
 1. [Background](#Background)
 2. [Objective](#Objective)
 3. [Data](#Data)
@@ -26,10 +26,9 @@ Choosie's mission is to take the stress out of dining out. They aspire to achiev
       * Identify categorical, numerical and textual data
 
 # Data
-
 Foursquare Places API: https://developer.foursquare.com/places-api
 
-I used Foursquare API over Yelp API because Foursquare API's terms and conditions are less strict compared to Yelp's, especially for commercial use. 
+Foursquare API provides data centered around location. Their API is very developer-friendly; many corporations use the Foursquare API for their apps today. Also, the terms and conditions are less strict compared to alternative API's, especially for commercial use.
 
 ## 3 GET requests
   *categories (147 total)
