@@ -44,7 +44,36 @@ Lastly, the **details GET** request takes the unique id of a venue and runs a si
 
 I created a set of all of the unique id's from the explore recommendations list and created another loop to run single queries using all of the unique id's gathered from the first two GET requests. **The resulting dataset was a dataframe with 483 rows and 20 columns.**
 
+# Challenges
+  * working with nested JSON objects
+  * limited premium calls
+  
+# Findings
 
+### Overview:
+147 categories, 483 restaurants, 20 features
+
+### Categorical Data:
+  * *Price Tier*
+  * *Verified*
+  * *Categories*
+  * *Attributes*
+
+### Numerical Data:
+  * *Ratings*
+  * *Likes*
+  * *Tips Count*
+  * *Listed*
+  * *Photos Count*
+
+### Textual Data: 
+  * *Descriptions*
+  * *Tips*
+  * *Categories*
+  * *Attributes*
+  
+### Image Data:
+  * *Photos*
 
 
 
