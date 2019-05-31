@@ -13,7 +13,7 @@ Table of Contents
 6. [Next Steps](#Next-Steps)
 
 # Background 
-I am currently working with with Choosie, an early-stage startup based in Boulder, whose mission is to take the stress out of dining out. Choosie aspires to achieve that by providing personalized recommendations, both for you and your group. Their first target market is Boulder, CO. 
+Choosie's mission is to take the stress out of dining out. They aspire to achieve that by providing personalized recommendations, both for you and your group. The first target market is Boulder, CO. 
 
 <p align="center">
 <img src='choosie_food.png'>
