@@ -59,6 +59,9 @@ I created a set of all of the unique id's from the explore recommendations list 
   * *Categories*
   * *Attributes*
 
+<p align="center">
+<img src="comparer.png">
+
 ### Numerical Data:
   * *Ratings*
   * *Likes*
@@ -91,4 +94,3 @@ The best tacos west of the Mississippi and Norte del Mexico"
 2. Expand analysis on dataframe in preparation for feature selection & modeling (i.e. NLP, Sentiment Analysis, Computer Vision, Multiple Regression)
 3. Create database/data pipeline before scaling (i.e. MongoDB, Spark, AWS)
 4. Webscrape Boulder Dining website, if needed
-
