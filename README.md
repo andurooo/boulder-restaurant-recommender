@@ -66,6 +66,9 @@ I created a set of all of the unique id's from the explore recommendations list 
   * *Listed*
   * *Photos Count*
 
+<p align="center">
+<img src="scattermatrix.png">
+
 ### Textual Data: 
   * *Descriptions*
   * *Tips*
