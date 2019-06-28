@@ -60,7 +60,7 @@ I created a set of all of the unique id's from the explore recommendations list 
   * *Attributes*
 
 <p align="center">
-<img src="comparer.png">
+<img src="img/comparer.png">
 
 ### Numerical Data:
   * *Ratings*
@@ -70,7 +70,7 @@ I created a set of all of the unique id's from the explore recommendations list 
   * *Photos Count*
 
 <p align="center">
-<img src="scattermatrix.png">
+<img src="img/scattermatrix.png">
 
 ### Textual Data: 
   * *Descriptions*
