@@ -80,12 +80,12 @@ The North End at 4580, Boulder Chophouse & Tavern, chop shop casual urban eatery
 By Feature and by Restaurants Comparison:
 1. dinner and drinks --> **fancy night out on a weekend**
 2. quick cheap eats --> **casual, cheap eats**
-3. fancier, unique sit-down restaurants --> **refined american cuisine**
+3. fancier, unique sit-down restaurants --> **refined American cuisine**
 4. comfortable, mid-tier meal --> **reliable mid-tiers**
 5. affordable unique --> **borderline affordable, unique experiences**
 6. dunno --> **Italian**
-7. varied --> **Fancy Sit-down restaurants**
-8. fancy american --> **top-tier eruo-american restaurants**
+7. varied --> **fancy sit-down restaurants**
+8. fancy american --> **top-tier Euro-American restaurants**
 9. coffee and meal --> **coffee and eat**
 10. relaxed, casual -->  **coffee and sit**
 
