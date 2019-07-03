@@ -77,41 +77,30 @@ Nick-N-Willy's, Nick and Willy's Take And Bake Pizza, SUBWAY, SUBWAY, SUBWAY
 * *topic 3:*
 The North End at 4580, Boulder Chophouse & Tavern, chop shop casual urban eatery, River and Woods, Boulder Airport Taxi
 
-By Features:
-1. **dinner and drinks**
-2. **quick cheap eats**
-3. **fancier, unique sit-down restaurants**
-4. **comfortable, mid-tier meal**
-5. **affordable unique**
-6. **dunno**
-7. **varied**
-8. **fancy american**
-9. **coffee and meal**
-10. **relaxed, casual**
+By Feature and by Restaurants Comparison:
+1. dinner and drinks --> **fancy night out on a weekend**
+2. quick cheap eats --> **casual, cheap eats**
+3. fancier, unique sit-down restaurants --> **refined american cuisine**
+4. comfortable, mid-tier meal --> **reliable mid-tiers**
+5. affordable unique --> **borderline affordable, unique experiences**
+6. dunno --> **Italian**
+7. varied --> **Fancy Sit-down restaurants**
+8. fancy american --> **top-tier eruo-american restaurants**
+9. coffee and meal --> **coffee and eat**
+10. relaxed, casual -->  **coffee and sit**
 
-By Restaurants:
-1. **fancy night out on a weekend**
-2. **casual, cheap eats**
-3. **refined american cuisine**
-4. **reliable mid-tiers**
-5. **borderline affordable, unique experiences**
-6. **Italian**
-7. **Fancy Sit-down restaurants**
-8. **top-tier eruo-american restaurants**
-9. **coffee and eat**
-10. **coffee and sit**
 
-**The North End at 4580**
-* latent_topic_0    0.115
-* latent_topic_1    0.000
-* latent_topic_2    0.326
-* latent_topic_3    0.138
-* latent_topic_4    0.000
-* latent_topic_5    0.000
-* latent_topic_6    0.265
-* latent_topic_7    0.234
-* latent_topic_8    0.000
-* latent_topic_9    0.000
+## **The North End at 4580**
+* latent topic 1:    0.115
+* latent topic 2:    0.000
+* latent topic 3:    0.326
+* latent topic 4:    0.138
+* latent topic 5:    0.000
+* latent topic 6:    0.000
+* latent topic 7:    0.265
+* latent topic 8:    0.234
+* latent topic 9:    0.000
+* latent topic 10:    0.000
 
 # Next-Steps
 1. Build on topic modelling concepts towards a collaborative recommender system
