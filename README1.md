@@ -1,5 +1,5 @@
 ********************
-# NMF Clustering for Restaurant Features
+# NMF Clustering for Restaurant
 ********************
 
 ## Table of Contents
@@ -12,6 +12,7 @@
 
 # Background 
 Choosie's mission is to take the stress out of dining out. They aspire to achieve that by providing personalized recommendations, both for you and your group. The first target market is Boulder, CO. 
+
 For Capstone 2, the focus was on identifying clusters of restaurant venues using unsupervising learning, specifically non-negative matrix factorization (NMF).
 
 <p align="center">
@@ -34,8 +35,8 @@ Foursquare Places API:
 did not use: likes, rating, photos, tips, listed
 
 # Approach
-  * How did I choose k?
-  * limited premium calls
+  * Why did I choose NMF?
+  * How did I choose the number of k's?
   
 # Findings
 
