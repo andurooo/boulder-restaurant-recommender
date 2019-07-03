@@ -91,16 +91,16 @@ By Feature and by Restaurants Comparison:
 
 
 ## **The North End at 4580**
-* latent topic 1:    0.115
-* latent topic 2:    0.000
-* latent topic 3:    0.326
-* latent topic 4:    0.138
-* latent topic 5:    0.000
-* latent topic 6:    0.000
-* latent topic 7:    0.265
-* latent topic 8:    0.234
-* latent topic 9:    0.000
-* latent topic 10:    0.000
+* **fancy night out on a weekend**:    0.115
+* **casual, cheap eats**:    0.000
+* **refined American cuisine**:    0.326
+* **reliable mid-tiers*:    0.138
+* **borderline affordable, unique experiences**:    0.000
+* **Italian**:    0.000
+* **fancy sit-down restaurants**:    0.265
+* **top-tier Euro-American restaurants**:    0.234
+* **coffee and eat**:    0.000
+* **coffee and sit**:    0.000
 
 # Next-Steps
 1. Build on topic modelling concepts towards a collaborative recommender system
