@@ -19,7 +19,7 @@ For Capstone 2, the focus was on identifying clusters of restaurant venues using
 <img src='img/choosie.png'>
   
 # Question: 
-Using NMF, what unexpected clusters can we find amongst restaurants that we can use to make recommendations to the user? 
+Using NMF, what unexpected clusters can we find amongst Boulder restaurants that we can use to make recommendations?
 
 # Data
 Foursquare Places API: 
