@@ -55,17 +55,11 @@ While there isn't a clear drop-off point in the error at point k, there is a not
 
 ## By features:
 
-*latent topic 1:*
+* *latent topic 1:* cocktails, full bar, happy hour, beer, wine, reservations, american_restaurant, dinner, dessert, table_service
 
-cocktails, full bar, happy hour, beer, wine, reservations, american_restaurant, dinner, dessert, table_service
+* *latent topic 2:* price tier 1, sandwich place, food truck, pizza place, fast food restaurant, café, coffee shop, mexican restaurant, ice cream shop, deli/bodega
 
-*latent topic 2:*
-
-price tier 1, sandwich place, food truck, pizza place, fast food restaurant, café, coffee shop, mexican restaurant, ice cream shop, deli/bodega
-
-*latent topic 3:*
-
-restaurant, american_restaurant, mexican restaurant, price tier 3, fast food restaurant, dinner, chinese restaurant, asian restaurant, italian restaurant, french restaurant 
+* *latent topic 3:* restaurant, american_restaurant, mexican restaurant, price tier 3, fast food restaurant, dinner, chinese restaurant, asian restaurant, italian restaurant, french restaurant 
 
 ## My labels: 
 * *topic 1:* **dinner and drinks**
