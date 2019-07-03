@@ -68,26 +68,14 @@ While there isn't a clear drop-off point in the error at point k, there is a not
 
 ## By restaurants:
 
-*topic 1:* 
+* *topic 1:* 
 Cracovia Polish Restaurant and Bar, The Sink, Next Door Boulder, Jax Fish House Boulder, OAK at fourteenth
        
-*topic 2:* 
+* *topic 2:* 
 Nick-N-Willy's, Nick and Willy's Take And Bake Pizza, SUBWAY, SUBWAY, SUBWAY
        
-*topic 3:*
+* *topic 3:*
 The North End at 4580, Boulder Chophouse & Tavern, chop shop casual urban eatery, River and Woods, Boulder Airport Taxi
-       
-**The North End at 4580**
-* latent_topic_0    0.115
-* latent_topic_1    0.000
-* latent_topic_2    0.326
-* latent_topic_3    0.138
-* latent_topic_4    0.000
-* latent_topic_5    0.000
-* latent_topic_6    0.265
-* latent_topic_7    0.234
-* latent_topic_8    0.000
-* latent_topic_9    0.000
 
 By Features:
 1. **dinner and drinks**
@@ -112,6 +100,18 @@ By Restaurants:
 8. **top-tier eruo-american restaurants**
 9. **coffee and eat**
 10. **coffee and sit**
+
+**The North End at 4580**
+* latent_topic_0    0.115
+* latent_topic_1    0.000
+* latent_topic_2    0.326
+* latent_topic_3    0.138
+* latent_topic_4    0.000
+* latent_topic_5    0.000
+* latent_topic_6    0.265
+* latent_topic_7    0.234
+* latent_topic_8    0.000
+* latent_topic_9    0.000
 
 # Next-Steps
 1. Build on topic modelling concepts towards a collaborative recommender system
