@@ -26,18 +26,28 @@ Foursquare Places API:
 [ source](https://developer.foursquare.com/places-api)
 </p>
 
-615 restaurants
+There are 615 Boulder restaurants in the dataset. While there are 147 possible categories a restaurant on Foursquare can be labeled as, only 73 of those categories are represented in Boulder restaurants. Also, each restaurant can be described by the attributes it has. In Boulder restaurants, 23 attributes are represented. 
 
-96 total features 
-73 categories (i.e. Mediterranean Restaurants, Cafes, etc)
-23 attributes (i.e. Outdoor seating, Happy Hour, Live Music, Wheelchair accessible, Price Tier 1-4, etc)
-
-did not use: likes, rating, photos, tips, listed
+Summary:
+  * **96 total features** 
+  * 73 categories (i.e. Mediterranean Restaurants, Cafes, etc)
+  * 23 attributes (i.e. Outdoor seating, Happy Hour, Live Music, Wheelchair accessible, Price Tier 1-4, etc)
+  * did not use numerical: likes, rating, photos, tips, listed
 
 # Approach
   * Why did I choose NMF?
   * How did I choose the number of k's?
   
+**Why NMF?**
+Soft clustering. Because each of my restaurants can have multiple categories or features associated with them. 
+
+**How did I choose my k?**
+
+After running my algorithm, I calculated the **reconstruction error** at various points in k to find where there is the greatest dropoff. The goal is to have the reconstruction error minimized to a desired value. To help visualize this, here is an elbow plot:
+
+<p align="center">
+<img src="img/k_rec_error.png">
+
 # Findings
 
 ### Overview:
