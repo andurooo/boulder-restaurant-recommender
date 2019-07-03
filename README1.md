@@ -68,9 +68,9 @@ price tier 1, sandwich place, food truck, pizza place, fast food restaurant, caf
 restaurant, american_restaurant, mexican restaurant, price tier 3, fast food restaurant, dinner, chinese restaurant, asian restaurant, italian restaurant, french restaurant 
 
 My labels: 
-*topic 1:* **dinner and drinks**
-*topic 2:* **quick, cheap eats**
-*topic 3:* **fancier, unique sit-downs**
+* *topic 1:* **dinner and drinks**
+* *topic 2:* **quick, cheap eats**
+* *topic 3:* **fancier, unique sit-downs**
 
 By restaurants:
 
