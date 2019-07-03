@@ -49,7 +49,7 @@ After running my algorithm, I calculated the **reconstruction error** at various
 <p align="center">
 <img src="img/k_rec_error.png">
 
-While there isn't a clear drop-off point in the error at point k, there is a noticeable change shift of the slop at **k = 10**. So I decided to use 10 as my number of k. 
+While there isn't a clear drop-off point in the error at point k, there is a noticeable shift of the slope at **k = 10**. So I decided to use 10 as my number of k. 
 
 # Findings
 
