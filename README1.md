@@ -55,29 +55,32 @@ While there isn't a clear drop-off point in the error at point k, there is a not
 
 By features:
 
-latent topic 1: 
+*latent topic 1:*
+
 cocktails, full bar, happy hour, beer, wine, reservations, american_restaurant, dinner, dessert, table_service
 
-latent topic 2: 
+*latent topic 2:*
+
 price tier 1, sandwich place, food truck, pizza place, fast food restaurant, café, coffee shop, mexican restaurant, ice cream shop, deli/bodega
 
-latent topic 3: 
-restaurant, american_restaurant, mexican restaurant, price tier 3, fast food restaurant, dinner, chinese restaurant,asian restaurant, italian restaurant, french restaurant
+*latent topic 3:*
+
+restaurant, american_restaurant, mexican restaurant, price tier 3, fast food restaurant, dinner, chinese restaurant, asian restaurant, italian restaurant, french restaurant 
 
 My labels: 
-topic 1: **dinner and drinks**
-topic 2: **quick, cheap eats**
-topic 3: **fancier, unique sit-downs**
+*topic 1:* **dinner and drinks**
+*topic 2:* **quick, cheap eats**
+*topic 3:* **fancier, unique sit-downs**
 
 By restaurants:
 
-topic 1: 
+*topic 1:* 
 Cracovia Polish Restaurant and Bar, The Sink, Next Door Boulder, Jax Fish House Boulder, OAK at fourteenth
        
-topic 2: 
+*topic 2:* 
 Nick-N-Willy's, Nick and Willy's Take And Bake Pizza, SUBWAY, SUBWAY, SUBWAY
        
-topic 3: 
+*topic 3:*
 The North End at 4580, Boulder Chophouse & Tavern, chop shop casual urban eatery, River and Woods, Boulder Airport Taxi
        
 **The North End at 4580**
