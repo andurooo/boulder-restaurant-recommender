@@ -55,11 +55,14 @@ While there isn't a clear drop-off point in the error at point k, there is a not
 
 By features:
 
-latent topic 1: cocktails, full bar, happy hour, beer, wine, reservations, american_restaurant, dinner, dessert, table_service
+latent topic 1: 
+cocktails, full bar, happy hour, beer, wine, reservations, american_restaurant, dinner, dessert, table_service
 
-latent topic 2: price tier 1, sandwich place, food truck, pizza place, fast food restaurant, café, coffee shop, mexican restaurant, ice cream shop, deli/bodega
+latent topic 2: 
+price tier 1, sandwich place, food truck, pizza place, fast food restaurant, café, coffee shop, mexican restaurant, ice cream shop, deli/bodega
 
-latent topic 3: restaurant, american_restaurant, mexican restaurant, price tier 3, fast food restaurant, dinner, chinese restaurant,asian restaurant, italian restaurant, french restaurant
+latent topic 3: 
+restaurant, american_restaurant, mexican restaurant, price tier 3, fast food restaurant, dinner, chinese restaurant,asian restaurant, italian restaurant, french restaurant
 
 My labels: 
 topic 1: **dinner and drinks**
@@ -67,27 +70,27 @@ topic 2: **quick, cheap eats**
 topic 3: **fancier, unique sit-downs**
 
 By restaurants:
-1: 'Cracovia Polish Restaurant and Bar', 'The Sink', 'Next Door Boulder',
-       'Jax Fish House Boulder', 'OAK at fourteenth'
+
+topic 1: 
+Cracovia Polish Restaurant and Bar, The Sink, Next Door Boulder, Jax Fish House Boulder, OAK at fourteenth
        
-2: 'Nick-N-Willy's', 'Nick and Willy's Take And Bake Pizza', 'SUBWAY',
-       'SUBWAY', 'SUBWAY'
+topic 2: 
+Nick-N-Willy's, Nick and Willy's Take And Bake Pizza, SUBWAY, SUBWAY, SUBWAY
        
-3: 'The North End at 4580', 'Boulder Chophouse & Tavern',
-       'chop shop casual urban eatery', 'River and Woods',
-       'Boulder Airport Taxi'
+topic 3: 
+The North End at 4580, Boulder Chophouse & Tavern, chop shop casual urban eatery, River and Woods, Boulder Airport Taxi
        
 **The North End at 4580**
-latent_topic_0    0.115
-latent_topic_1    0.000
-latent_topic_2    0.326
-latent_topic_3    0.138
-latent_topic_4    0.000
-latent_topic_5    0.000
-latent_topic_6    0.265
-latent_topic_7    0.234
-latent_topic_8    0.000
-latent_topic_9    0.000
+* latent_topic_0    0.115
+* latent_topic_1    0.000
+* latent_topic_2    0.326
+* latent_topic_3    0.138
+* latent_topic_4    0.000
+* latent_topic_5    0.000
+* latent_topic_6    0.265
+* latent_topic_7    0.234
+* latent_topic_8    0.000
+* latent_topic_9    0.000
 
 By Features:
 1. **dinner and drinks**
