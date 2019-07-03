@@ -39,6 +39,7 @@ Summary:
   * How did I choose the number of k's?
   
 **Why NMF?**
+
 Soft clustering. Because each of my restaurants can have multiple categories or features associated with them. 
 
 **How did I choose my k?**
@@ -48,49 +49,22 @@ After running my algorithm, I calculated the **reconstruction error** at various
 <p align="center">
 <img src="img/k_rec_error.png">
 
+While there isn't a clear drop-off point in the error at point k, there is a noticeable change shift of the slop at **k = 10**. So I decided to use 10 as my number of k. 
+
 # Findings
 
-### Overview:
-147 categories, 483 restaurants, 20 features
+By features:
 
-### Categorical Data:
-  * *Price Tier*
-  * *Verified*
-  * *Categories*
-  * *Attributes*
+latent topic 1: cocktails, full bar, happy hour, beer, wine, reservations, american_restaurant, dinner, dessert, table_service
 
-<p align="center">
-<img src="img/comparer.png">
+latent topic 2: 'price_tier_1', 'sandwich_place', 'food_truck', 'pizza_place',
+       'fast_food_restaurant', 'café', 'coffee_shop', 'mexican_restaurant',
+       'ice_cream_shop', 'deli_/_bodega'
 
-### Numerical Data:
-  * *Ratings*
-  * *Likes*
-  * *Tips Count*
-  * *Listed*
-  * *Photos Count*
 
-<p align="center">
-<img src="img/scattermatrix.png">
 
-### Textual Data: 
-  * *Descriptions*
-  * *Tips*
-  * *Categories*
-  * *Attributes*
-  
 
-<p align="center" font='12'>
-"Grab a seat on the patio if you've got kids--there's a park just beyond the fence!
-happy hour: 3-7
-Everything! Love carnitas!
-The best tacos west of the Mississippi and Norte del Mexico"
-</p>
 
-### Image Data:
-  * *Photos*
-
-# Future Steps
-1. Gather user data and perform EDA
-2. Expand analysis on dataframe in preparation for feature selection & modeling (i.e. NLP, Sentiment Analysis, Computer Vision, Multiple Regression)
-3. Create database/data pipeline before scaling (i.e. MongoDB, Spark, AWS)
-4. Webscrape Boulder Dining website, if needed
+# Next-Steps
+1. Build on topic modelling concepts towards a collaborative recommender system
+2. Create user-facing tool for recommender (i.e. Flash)
