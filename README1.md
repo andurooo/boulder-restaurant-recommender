@@ -94,7 +94,7 @@ By Feature and by Restaurants Comparison:
 * **fancy night out on a weekend**:    0.115
 * **casual, cheap eats**:    0.000
 * **refined American cuisine**:    0.326
-* **reliable mid-tiers*:    0.138
+* **reliable mid-tiers**:    0.138
 * **borderline affordable, unique experiences**:    0.000
 * **Italian**:    0.000
 * **fancy sit-down restaurants**:    0.265
