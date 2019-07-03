@@ -53,7 +53,7 @@ While there isn't a clear drop-off point in the error at point k, there is a not
 
 # Findings
 
-By features:
+## By features:
 
 *latent topic 1:*
 
@@ -67,12 +67,12 @@ price tier 1, sandwich place, food truck, pizza place, fast food restaurant, caf
 
 restaurant, american_restaurant, mexican restaurant, price tier 3, fast food restaurant, dinner, chinese restaurant, asian restaurant, italian restaurant, french restaurant 
 
-My labels: 
+## My labels: 
 * *topic 1:* **dinner and drinks**
 * *topic 2:* **quick, cheap eats**
 * *topic 3:* **fancier, unique sit-downs**
 
-By restaurants:
+## By restaurants:
 
 *topic 1:* 
 Cracovia Polish Restaurant and Bar, The Sink, Next Door Boulder, Jax Fish House Boulder, OAK at fourteenth
