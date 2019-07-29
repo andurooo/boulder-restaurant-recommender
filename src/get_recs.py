@@ -34,8 +34,8 @@ def get_cosine_sim(W):
     cos_sim.columns = [col.lower().replace(' ', '_') for col in cos_sim.index]
     return cos_sim
     sklearn.metrics.pairwise.
-def get_recs(venue, cos_sim):   
-    
+
+def get_recs(venue, cos_sim):       
     restaurant = venue
     rest = restaurant.lower().replace(' ', '_')
     return cos_sim[rest].sort_values(ascending=False).iloc[1:10]
