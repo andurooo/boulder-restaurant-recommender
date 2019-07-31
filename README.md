@@ -97,9 +97,6 @@ The best tacos west of the Mississippi and Norte del Mexico"
 
 
 For Capstone 2, the focus was on identifying clusters of restaurant venues using unsupervising learning, specifically non-negative matrix factorization (NMF).
-
-<p align="center">
-<img src='img/choosie.png'>
   
 # Question: 
 Using NMF, what unexpected clusters can we find amongst Boulder restaurants that we can use to make recommendations?
