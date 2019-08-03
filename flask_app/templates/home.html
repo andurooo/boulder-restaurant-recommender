@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block content %}
+
+<style>
+
+   body{
+     background-image:url('http://newdenizen.com/wp-content/uploads/2018/08/senor-bear-brunch-e1538416815409.jpg');
+     width:100%;
+    background-size: cover;
+   }
+   @media only screen and (max-width: 500px) {
+       body {
+           background-size: auto;
+       }
+   }
+.main {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 180px;
+  padding-bottom: 5px;
+}
+.main h1 {
+  font-size: 7em;
+}
+.main h2 {
+  font-size:3em;
+}
+.main p {
+  font-size:2em;
+}
+.buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+button {
+            padding: 1vh 2vw;
+            background-color: cornflowerblue;
+            color: grey;
+            border-radius: 16px;
+            border-color: rgb(150, 12, 12); 
+            padding-left: 12px; 
+            padding-right: 12px; 
+            font-size: 30px; 
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: rgba(0,0,0,0);
+            color: cornflowerblue;
+            border-color: cornflowerblue;
+        }
+
+
+</style>
+
+    <div class="main">
+
+      <div class="starter-template"></div>
+        <font color="brown"><center><h1 style="font-family:futura;">Boulder Restaurant Recommender</h1></center> 
+        <i><font color="black"><center><h2 style="font-family:georgia;"> Take the stress out of dining out :) </h2></center></i>
+      </div>
+
+    </div>
+
+</div>
+
+
+</div>
+    <center><div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pick a restaurant you love
+        <span class="caret"></span></button>
+        <div id="myDropdown" class="dropdown-content"></div>         
+                <center><a href="Abos">Abo's Pizza</a></center>
+                <center><a href="Ados">Ado's Kitchen and Bar</a></center>
+                <center><a href="Akiyama">Akiyama Sushi Bar and Grill</a></center>
+                <center><a href="Alibaba">Alibaba Grill/<a></center>
+            </ul>
+        </div></center>
+
+{% endblock %}

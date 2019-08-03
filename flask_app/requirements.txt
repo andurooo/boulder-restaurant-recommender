@@ -1,0 +1,4 @@
+# Originally used pip freeze > requirements.txt 
+# Then removed all packages except the ones I needed, list below.
+Flask==1.0.2
+pandas==0.23.4

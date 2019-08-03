@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block content %}
+
+<style>
+
+   body{
+     background-image:url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+     width:100%;
+    background-size: cover;
+   }
+   @media only screen and (max-width: 500px) {
+       body {
+           background-size: auto;
+       }
+   }
+.main {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 180px;
+  padding-bottom: 1px;
+}
+.main h1 {
+  font-size: 5em;
+}
+.main h2 {
+  font-size:2em;
+}
+.main p {
+  font-size:2em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+button {
+            padding: 1vh 2vw;
+            background-color: cornflowerblue;
+            color: grey;
+            border-radius: 16px;
+            border-color: rgb(150, 12, 12); 
+            padding-left: 12px; 
+            padding-right: 12px; 
+            font-size: 30px; 
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: rgba(0,0,0,0);
+            color: cornflowerblue;
+            border-color: cornflowerblue;
+        }
+
+</style>
+
+</head>
+<div class="main">
+  <div class="column" style="background-color:opaque;">
+  <div class="starter-template"></div>
+    <font color="brown"><center><h1 style="font-family:futura;">Based on your selected restaurant, you'll also enjoy these!</h1>
+      <h2>
+        <ul>
+            <i><font color="black"><center><p style="font-family:futura;">{%for element in recs%}
+          
+          <li>
+            <li:>
+              {{element}}
+            </li:>
+            </li>
+          {% endfor %}</i>
+      </ul>
+        </h2></center> 
+
+{% endblock %}
