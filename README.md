@@ -184,4 +184,4 @@ By Feature and by Restaurants Comparison:
 
 # Next-Steps
 1. Build on topic modelling concepts towards a collaborative recommender system
-2. Create user-facing tool for recommender (i.e. Flash)
+2. Create user-facing tool for recommender (i.e. Flask)
