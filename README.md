@@ -11,10 +11,10 @@
 6. [Next Steps](#Next-Steps)
 
 # Background 
-Choosie's mission is to take the stress out of dining out. They aspire to achieve that by providing personalized recommendations, both for you and your group. The first target market is Boulder, CO. 
+For my capstone project, I worked with an early-stage startup whose mission is to take the stress out of dining out. They aspire to achieve that by providing personalized recommendations, both for you and your group. The first target market is Boulder, CO. 
 
 <p align="center">
-<img src='img/choosie.png'>
+<img src='img/choosie_food.png'>
   
 ## Question: 
 What are the dining options available in Boulder? What are the categories and features to selecting from when choosing a restaurant?
@@ -184,4 +184,4 @@ By Feature and by Restaurants Comparison:
 
 # Next-Steps
 1. Build on topic modelling concepts towards a collaborative recommender system
-2. Create user-facing tool for recommender (i.e. Flash)
+2. Create user-facing tool for recommender (i.e. Flask)
