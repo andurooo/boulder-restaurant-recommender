@@ -11,10 +11,10 @@
 6. [Next Steps](#Next-Steps)
 
 # Background 
-Choosie's mission is to take the stress out of dining out. They aspire to achieve that by providing personalized recommendations, both for you and your group. The first target market is Boulder, CO. 
+For my capstone project, I worked with an early-stage startup whose mission is to take the stress out of dining out. They aspire to achieve that by providing personalized recommendations, both for you and your group. The first target market is Boulder, CO. 
 
 <p align="center">
-<img src='img/choosie.png'>
+<img src='img/choosie_food.png'>
   
 ## Question: 
 What are the dining options available in Boulder? What are the categories and features to selecting from when choosing a restaurant?
