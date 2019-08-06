@@ -19,9 +19,9 @@
 For my capstone project, I worked with an early-stage startup in Boulder whose mission is to take the stress out of dining out by providing personalized recommendations. The startup has built connections with potential customers, so their next focus is to create a minimum viable product (MVP). 
 
 ## Objective
-With the startup's initial target market being Boulder, Colorado, my objective was to: 
-* _**gather and explore data on Boulder restaurants**_
-* _**build a dynamic, recommender system using machine learning techniques.**_
+With the startup's initial target market being Boulder, my objective was to: 
+* gather and explore data on Boulder restaurants
+* build a dynamic, recommender system using machine learning techniques
 
 # Objective
   * Gather data on Boulder restaurants
