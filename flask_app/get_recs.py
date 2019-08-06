@@ -25,7 +25,7 @@ def get_latent_topics(df):
     W = pd.DataFrame(W, index = names, columns = topics)
     H = pd.DataFrame(H, index = topics, columns = categories)
 
-    W,H = (np.around(x,3) for x in (W, H))
+    W, H = (np.around(x,3) for x in (W, H))
     return W, H
 
 def get_cosine_sim(W):
@@ -43,7 +43,7 @@ if __name__ == '__main__':
     
     W, H = get_latent_topics(df)
     cos_sim = get_cosine_sim(W)
-    get_recs(venue, cos_sim)
+    print(list(get_recs(sys.argv[1], cos_sim)))
+    # get_recs("Illegal Pete's", cos_sim)
 
-
-   
+    # request.form.get('')

@@ -4,6 +4,9 @@
 
 <p align="center">
 <img src='img/app_home.png'>
+</p>
+Flask App: 
+[source](https://developer.foursquare.com/places-api)
 
 ## Table of Contents
 1. [Background](#Background)
@@ -13,20 +16,21 @@
 5. [Web App](#Web-App)
 6. [Future Considerations](#Future-Considerations)
 
-# Background 
+## Background 
 
-## Context
+### Context
 For my capstone project, I worked with an early-stage startup in Boulder whose mission is to take the stress out of dining out by providing personalized recommendations. The startup has built connections with potential customers, so their next focus is to create a minimum viable product (MVP). 
 
-## Objective
+### Objective
 With the startup's initial target market being Boulder, my objective was to: 
 * Gather and explore data on Boulder restaurants
 * Build a dynamic, recommender system using machine learning techniques
 
-# Data
+## Data
 Foursquare Places API: 
-[ source](https://developer.foursquare.com/places-api)
-</p>
+[source](https://developer.foursquare.com/places-api)
+
+The startup requested I could 
 
 Foursquare API provides data centered around location. Their API is very developer-friendly; many corporations use the Foursquare API for their apps today. The terms and conditions are less strict compared to alternative API's, especially for commercial use, which was an important component for Choosie.
 

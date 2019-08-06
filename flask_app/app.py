@@ -1,7 +1,8 @@
 from flask import Flask, render_template 
 from flask import Flask, redirect, url_for, request
 import pandas as pd
-from get_recs import *
+import get_recs
+import pickle
 # import numpy as np
 # from sklearn.metrics.pairwise import cosine_similarity
 
@@ -23,54 +24,7 @@ def recs():
     W, H = get_latent_topics(df)
     cos_sim = get_cosine_sim(W)
     # venue = 
-    recs = get_recs("Illegal Pete's", cos_sim)
-    return render_template("recs.html", recs=recs)
-
-@app.route('/Abos', methods=['GET', 'POST'])
-def abos():
-    # if request.method == 'POST':
-    #     result = request.form
-    #     return render_template("recs.html", venue = )
-
-    W, H = get_latent_topics(df)
-    cos_sim = get_cosine_sim(W)
-    # venue = 
-    recs = get_recs("Abo's Pizza", cos_sim)
-    return render_template("recs.html", recs=recs)
-
-@app.route('/Ados', methods=['GET', 'POST'])
-def ados():
-    # if request.method == 'POST':
-    #     result = request.form
-    #     return render_template("recs.html", venue = )
-
-    W, H = get_latent_topics(df)
-    cos_sim = get_cosine_sim(W)
-    # venue = 
-    recs = get_recs("Ado's Kitchen and Bar", cos_sim)
-    return render_template("recs.html", recs=recs)
-
-@app.route('/Akiyama', methods=['GET', 'POST'])
-def akiyama():
-    # if request.method == 'POST':
-    #     result = request.form
-    #     return render_template("recs.html", venue = )
-
-    W, H = get_latent_topics(df)
-    cos_sim = get_cosine_sim(W)
-    recs = get_recs("Akiyama Sushi Bar and Grill", cos_sim)
-    return render_template("recs.html", recs=recs)
-
-@app.route('/Alibaba', methods=['GET', 'POST'])
-def alibaba():
-    # if request.method == 'POST':
-    #     result = request.form
-    #     return render_template("recs.html", venue = )
-
-    W, H = get_latent_topics(df)
-    cos_sim = get_cosine_sim(W)
-    # venue = 
-    recs = get_recs("Alibaba Grill", cos_sim)
+    recs = get_recs(venue, cos_sim)
     return render_template("recs.html", recs=recs)
 
 if  __name__ == '__main__':
