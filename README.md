@@ -5,9 +5,8 @@
 <p align="center">
 <img src='img/app_home.png'>
 </p>
-Flask App:
-
-[source](https://developer.foursquare.com/places-api)
+Flask App: 
+[link](https://developer.foursquare.com/places-api)
 
 ## Table of Contents
 1. [Background](#Background)
@@ -18,7 +17,6 @@ Flask App:
 6. [Future Considerations](#Future-Considerations)
 
 ## Background 
-
 ### Context
 For my capstone project, I worked with an early-stage startup in Boulder whose mission is to take the stress out of dining out by providing personalized recommendations. The startup has built connections with potential customers, so their next focus is to create a minimum viable product (MVP). 
 
@@ -28,10 +26,22 @@ With the startup's initial target market being Boulder, my objective was to:
 * Build a dynamic, recommender system using machine learning techniques
 
 ## Data
+### Processing
 Foursquare Places API: 
 [source](https://developer.foursquare.com/places-api)
 
-It was important to use Foursquare API instead of other mainstream food search engines because Foursquare is developer-friendly. The terms and conditions are more lenient compared to alternative API's, which was crucial for the startup as it plans to scale and commercialize.  
+Foursquare API is developer-friendly and its terms and conditions are more lenient compared to alternative API's. This component was important for the startup as it plans to scale and commercialize.  
+
+To manipulate the data to a format I could use, it required JSON parsing through the Foursquare API data and converting it to a Pandas DataFrame. 
+
+<p align="center">
+<img src='img/data_processing.png'>
+</p>
+
+### Exploratory Analysis
+
+
+
 
 ## 3 GET requests
   * *categories (147 total)*
