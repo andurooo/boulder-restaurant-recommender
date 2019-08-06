@@ -5,7 +5,8 @@
 <p align="center">
 <img src='img/app_home.png'>
 </p>
-Flask App: 
+Flask App:
+
 [source](https://developer.foursquare.com/places-api)
 
 ## Table of Contents
@@ -30,9 +31,7 @@ With the startup's initial target market being Boulder, my objective was to:
 Foursquare Places API: 
 [source](https://developer.foursquare.com/places-api)
 
-The startup requested I could 
-
-Foursquare API provides data centered around location. Their API is very developer-friendly; many corporations use the Foursquare API for their apps today. The terms and conditions are less strict compared to alternative API's, especially for commercial use, which was an important component for Choosie.
+It was important to use Foursquare API instead of other mainstream food search engines because Foursquare is developer-friendly. The terms and conditions are more lenient compared to alternative API's, which was crucial for the startup as it plans to scale and commercialize.  
 
 ## 3 GET requests
   * *categories (147 total)*
