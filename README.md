@@ -6,8 +6,8 @@
 <img src='img/choosie_food.png'>
 
 ## Table of Contents
-1. [Background](#Background) - Context & Objective
-2. [Data](#Data) - Preparation & Analysis 
+1. [Background](#Background)
+2. [Data](#Data) 
 3. [Modeling](#Modeling)
 4. [Results](#Results)
 5. [Web App](#Web-App)
@@ -19,10 +19,7 @@
 For my capstone project, I worked with an early-stage startup in Boulder whose mission is to take the stress out of dining out by providing personalized recommendations. The startup has built connections with potential customers, so their next focus is to create a minimum viable product (MVP). 
 
 ## Objective
-The startup's initial target market is Boulder, CO. As a result, my objective was to gather and explore data on Boulder restaurants and build a dynamic, recommender system using machine learning techniques.
-  
-## Question: 
-What are the dining options available in Boulder? What are the categories and features to selecting from when choosing a restaurant?
+With the startup's initial target market being Boulder, Colorado, my objective was to **gather and explore data on Boulder restaurants** and **build a dynamic, recommender system using machine learning techniques.**
 
 # Objective
   * Gather data on Boulder restaurants
