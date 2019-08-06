@@ -2,19 +2,24 @@
 # Exploring Boulder Restaurants
 ********************
 
-## Table of Contents
-1. [Background](#Background)
-2. [Objective](#Objective)
-3. [Data](#Data)
-4. [Challenges](#Challenges)
-5. [Findings](#Findings)
-6. [Next Steps](#Next-Steps)
-
-# Background 
-For my capstone project, I worked with an early-stage startup whose mission is to take the stress out of dining out. They aspire to achieve that by providing personalized recommendations, both for you and your group. The first target market is Boulder, CO. 
-
 <p align="center">
 <img src='img/choosie_food.png'>
+
+## Table of Contents
+1. [Background](#Background) - Context & Objective
+2. [Data](#Data) - Preparation & Analysis 
+3. [Modeling](#Modeling)
+4. [Results](#Results)
+5. [Web App](#Web-App)
+6. [Future Considerations](#Future-Considerations)
+
+# Background 
+
+## Context
+For my capstone project, I worked with an early-stage startup in Boulder whose mission is to take the stress out of dining out by providing personalized recommendations. The startup has built connections with potential customers, so their next focus is to create a minimum viable product (MVP). 
+
+## Objective
+The startup's initial target market is Boulder, CO. As a result, my objective was to gather and explore data on Boulder restaurants and build a dynamic, recommender system using machine learning techniques.
   
 ## Question: 
 What are the dining options available in Boulder? What are the categories and features to selecting from when choosing a restaurant?
@@ -24,7 +29,7 @@ What are the dining options available in Boulder? What are the categories and fe
   * Perform exploratory data analysis (EDA)
       * Identify categorical, numerical and textual data
 
-# Data
+# Data Preparation
 Foursquare Places API: 
 [ source](https://developer.foursquare.com/places-api)
 </p>
