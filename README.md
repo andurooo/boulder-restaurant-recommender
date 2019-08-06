@@ -3,7 +3,7 @@
 ********************
 
 <p align="center">
-<img src='img/choosie_food.png'>
+<img src='img/app_home.png'>
 
 ## Table of Contents
 1. [Background](#Background)
@@ -20,15 +20,10 @@ For my capstone project, I worked with an early-stage startup in Boulder whose m
 
 ## Objective
 With the startup's initial target market being Boulder, my objective was to: 
-* gather and explore data on Boulder restaurants
-* build a dynamic, recommender system using machine learning techniques
+* Gather and explore data on Boulder restaurants
+* Build a dynamic, recommender system using machine learning techniques
 
-# Objective
-  * Gather data on Boulder restaurants
-  * Perform exploratory data analysis (EDA)
-      * Identify categorical, numerical and textual data
-
-# Data Preparation
+# Data
 Foursquare Places API: 
 [ source](https://developer.foursquare.com/places-api)
 </p>
