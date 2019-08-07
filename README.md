@@ -46,7 +46,7 @@ After cleaning for chain restaurants, repeats, closures and one-offs, my final d
 | A Cup Of Peace    | 0 | 1 | ... | 1 | 0 | 0 |
 | Abbys coffee   |  0 | 0 | ... | 0 | 0 | 0 |
 
-318 x 78
+*The final dataset's shape was 318 x 78.* 
 
 ### Exploratory Data Analysis (EDA)
 
