@@ -38,6 +38,10 @@ To manipulate the data to a format I could use, it required JSON parsing through
 <img src='img/data_processing.png'>
 </p>
 
+After cleaning for chain restaurants, repeats, closures and one-offs, my final dataset was comprised of 318 restaurants and 78 categories. Categories were associations a restaurant would be described as both in regards to the food it serves as well as attributes not related to food. For example, common categories were *Mexican, Italian, and Salad*, and attributes were *patio, happy hour, does delivery, and price tier*,
+
+
+
 ### Exploratory Analysis
 
 
