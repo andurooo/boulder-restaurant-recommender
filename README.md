@@ -40,11 +40,11 @@ To manipulate the data to a format I could use, it required JSON parsing through
 
 After cleaning for chain restaurants, repeats, closures and one-offs, my final dataset was comprised of 318 restaurants and 78 categories. Categories were associations a restaurant would be described as both in regards to the food it serves as well as attributes not related to food. For example, common categories were *Mexican, Italian, and salad*, and common attributes were *patio, happy hour, does delivery, and price tier*.
 
-| name        | american_restaurant | asian_restaurant |  ...  | price_tier_4 | has_wifi |
-| :----------:|:-------------------:|:----------------:|  ---  |:------------:|:--------:|
-| 3 Margaritas      | 0 | 0 | ... | 0 | 0 |
-| A Cup Of Peace    | 0 | 1 | ... | 0 | 0 |
-| Abbys coffee   |  0 | 0 | ... | 0 | 0 |
+| name        | american_restaurant | asian_restaurant |  ...  | patio | price_tier_4 | has_wifi |
+| :----------:|:-------------------:|:----------------:|  ---  |:-----:|:------------:|:--------:|
+| 3 Margaritas      | 0 | 0 | ... | 0 | 0 | 0 |
+| A Cup Of Peace    | 0 | 1 | ... | 1 | 0 | 0 |
+| Abbys coffee   |  0 | 0 | ... | 0 | 0 | 0 |
 
 ### Exploratory Data Analysis (EDA)
 
