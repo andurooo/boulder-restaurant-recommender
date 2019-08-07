@@ -35,7 +35,7 @@ Foursquare API is developer-friendly and its terms and conditions are more lenie
 To manipulate the data to a format I could use, it required JSON parsing through the Foursquare API data and converting it to a Pandas DataFrame. 
 
 <p align="center">
-<img src='img/data_processing.png' | width=1000>
+<img src='img/data_processing.png' | width=500>
 </p>
 
 After cleaning for chain restaurants, repeats, closures and one-offs, my final dataset was comprised of 318 restaurants and 78 categories. Categories were associations a restaurant would be described as both in regards to the food it serves as well as attributes not related to food. For example, common categories were *Mexican, Italian, and salad*, and common attributes were *patio, happy hour, does delivery, and price tier*.
