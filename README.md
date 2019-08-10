@@ -64,7 +64,7 @@ To explore the correlational relationships between variables, I explored the num
 <img src='img/rating_dist.png' | width=800>
 </p>
 <p align="center">
-<img src='img/price_tier.png' | width=300>
+<img src='img/price_tier.png' | width=150>
 </p>
 
 An interesting finding here was that while ratings in price tier 1 and 2 were widely distributed with a mean rating 7.5 and 7.7, respectively, ratings overall were closer to the mean for price tier 3 at 8.1. This leads me to hypothesize that self-fulfilling prophesy may be involved when you go to a finer, more expensive restaurant. 
