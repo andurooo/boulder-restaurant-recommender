@@ -59,7 +59,7 @@ Initially there were 661 venues in Boulder on Foursquare but after cleaning for 
 <img src='img/rating_dist.png' | width=700>
 </p>
 <p align="center">
-<img src='img/price_tier.png' | width=400>
+<img src='img/price_tier.png' | width=100>
 </p>
 
 <!-- | price tier | count |
