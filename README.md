@@ -62,7 +62,7 @@ Initially there were 661 venues in Boulder on Foursquare but after cleaning for 
 <img src='img/price_tier.png' | width=100>
 </p>
 
-<img align="left" width="100" height="100" src='img/rating_dist.png' >
+<img align="left" width="700" height="500" src='img/rating_dist.png' >
 <img align="right" width="100" height="100" src='img/price_tier.png' >
 
 <!-- | price tier | count |
@@ -71,11 +71,6 @@ Initially there were 661 venues in Boulder on Foursquare but after cleaning for 
 | 2 | 132 |
 | 3 | 25 | 
 | 4 |  5 |  -->
-
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
-
 
 ## 3 GET requests
   * *categories (147 total)*
