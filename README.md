@@ -60,8 +60,12 @@ The following were the most common categories in Boulder. I used soft clustering
 
 To explore the correlational relationships between variables, I explored the numerical data I had through Foursquare. They were ratings, likes, tips, listed and photos. After plotting a scatterplot matrix, I saw there was a strong positive correlation amongst the numerical variables. So instead of using all of them, I chose ratings to observe how the distribution of a numerical variable differed by price tier. 
 
-<img align="left" width="600" height="500" src='img/rating_dist.png' >
-<img align="right" width="150" height="150" src='img/price_tier.png' >
+<p align="center">
+<img src='img/rating_dist.png' | width=800>
+</p>
+<p align="center">
+<img src='img/price_tier.png' | width=300>
+</p>
 
 An interesting finding here was that while ratings in price tier 1 and 2 were widely distributed with a mean rating 7.5 and 7.7, respectively, ratings overall were closer to the mean for price tier 3 at 8.1. This leads me to hypothesize that self-fulfilling prophesy may be involved when you go to a finer, more expensive restaurant. 
 
