@@ -64,7 +64,6 @@ To explore the correlational relationships between variables, I explored the num
 <img src="img/scattermatrix.png">
 
 So instead of using all of them, I chose ratings to observe how the distribution of a numerical variable differed by price tier. 
-
 <p align="center">
 <img src='img/rating_dist.png' | width=800>
 </p>
