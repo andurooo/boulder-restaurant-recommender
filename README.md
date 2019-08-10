@@ -80,22 +80,27 @@ An interesting finding here was that while ratings in price tier 1 and 2 were wi
 | 3 | 25 | 
 | 4 |  5 |  -->
 
+## Modeling
 
+I chose Non-negative Matrix Factorization (NMF) topic modeling because of: 
+* Sparcity 
+* Speed 
+* Soft Clustering
 
+### Sparsity (or addressing it)
+In my Foursquare dataset, it is all 1's and 0's of restaurants and the categories they are labeled as. Because each restaurant is labeled as only a handful of categories, there are many zeros all across the dataset. Despite having a sparse matrix, NMF is dynamic and works with this dataset to create latent topics. 
 
+### Speed
+NMF is extremely fast compared to other models. By creating a number of latent topics, through NMF you can use that number of latent topics to calculate a similarity or distance metric instead of using all 78 categories to vectorize and do so. NMF is also dynamic to create new matrices W and H, where W shows the loaded scores of each restaurant to a latent topic and H shows the loaded scores of each category to a latent topic.  
 
-## 3 GET requests
-  * *categories (147 total)*
-  * *explore (uses keyword to return recommendations)*
-  * *details (single query using venue unique id)*
-  
-Through the **categories GET** request, I gained insight about all of the categories used in the Foursquare app. It is divided up into main categories that serve as umbrella categories. And below those main categories, there are two levels of subcategories. For example, the main category I used for my GET request was 'Food'. And under 'Food' were subcategories, such as "Indian Restaurants", and "Mexican Restaurants", and under those subcategories were sub-level-2 categories, such as "Dosa", "South Indian", "North Indian", and "Taco Places" and "Burrito Places", respectively. In the dataset I used, under "Food", there were 90 subcategories and 56 sub-level-2 categories, for a total of 147 categories.
+<p align="center">
+<img src="img/nmf.png">
 
-The **explore GET** request takes a keyword as an input and compares it against restaurants' associated categories and tips. The output is a specified number of venues, with a limit of 100. 
+I selected my latent topics, k = 9. I plotted how the number of k influenced the reconstruction error, the comparison between the original matrix to the new matrix, V, created by NMF. After seeing that the greatest inflection point range, or the decrease in slope, was between 5 and 15, I analyzed the actual latent topics and the restaurants and categories under each topic. Finally, I made a judgment call at 9, where the topics were most sensible. 
 
-Lastly, the **details GET** request takes the unique id of a venue and runs a single query that returns all of the specific details for that single venue. Because it is a single query, I attained all of the categories from the categories GET request, ran a loop to get all of the restaurants associated with each category to get around the limit of 100 on explore. 
+<p align="center">
+<img src="img/k_rec_error.png">
 
-I created a set of all of the unique id's from the explore recommendations list and created another loop to run single queries using all of the unique id's gathered from the first two GET requests. **The resulting dataset was a dataframe with 483 rows and 20 columns.**
 
 # Challenges
   * working with nested JSON objects
