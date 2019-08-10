@@ -44,7 +44,7 @@ Initially there were 661 venues in Boulder on Foursquare but after cleaning for 
 <img src='img/data_table.png' | width=700>
 </p>
 
-<!-- | name        | american_restaurant | asian_restaurant |  ...  | has_outdoor_seating | price_tier_4 | has_wifi |
+<!-- | name        | american_restaurant | asian_restaurant |  ...  | patio | price_tier_4 | has_wifi |
 | :----------:|:-------------------:|:----------------:|  ---  |:-----:|:------------:|:--------:|
 | 3 Margaritas      | 0 | 0 | ... | 0 | 0 | 0 |
 | A Cup Of Peace    | 0 | 1 | ... | 1 | 0 | 0 |
