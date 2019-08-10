@@ -38,7 +38,7 @@ To manipulate the data to a format I could use, it required JSON parsing through
 <img src='img/data_processing.png' | width=500>
 </p>
 
-Initially there were 661 venues in Boulder on Foursquare but after cleaning for chain restaurants, repeats, closures and one-offs, my final dataset was comprised of **318 restaurants and 78 categories**. Categories were associations a restaurant would be described as both in regards to the food it serves as well as attributes not related to food. For example, common categories were *Mexican, Italian, and salad*, and common attributes were *patio, happy hour, does delivery, and price tier*.
+Initially there were 661 venues in Boulder on Foursquare but after cleaning for chain restaurants, repeats, closures and one-offs, my final dataset was comprised of **319 restaurants and 78 categories**. Categories were associations a restaurant would be described as both in regards to the food it serves as well as attributes not related to food. For example, common categories were *Mexican, Italian, and salad*, and common attributes were *patio, happy hour, does delivery, and price tier*.
 
 <p align="center">
 <img src='img/data_table.png' | width=700>
@@ -64,10 +64,10 @@ To explore the correlational relationships between variables, I explored the num
 <img src="img/scattermatrix.png">
 
 So instead of using all of them, I chose ratings to observe how the distribution of a numerical variable differed by price tier. 
-<p align="center">
+<p align="left">
 <img src='img/rating_dist.png' | width=800>
 </p>
-<p align="center">
+<p align="right">
 <img src='img/price_tier.png' | width=150>
 </p>
 
