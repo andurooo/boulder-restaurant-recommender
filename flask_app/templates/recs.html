@@ -64,15 +64,19 @@ button {
     <font color="brown"><center><h1 style="font-family:futura;">Based on your selected restaurant, you'll also enjoy these!</h1>
       <h2>
         <ul>
-            <i><font color="black"><center><p style="font-family:futura;">{%for element in recs%}
+            <i><font color="black"><center><p style="font-family:futura;">{%for rec in recs%}
           
           <li>
             <li:>
-              {{element}}
+              {{rec}}
             </li:>
             </li>
           {% endfor %}</i>
       </ul>
         </h2></center> 
+
+<div>
+        <center><a href="/"><font color="blue"><h1 style="font-family:futura;"></h1><u>Return Home</u></Return></a></center>
+      </div>
 
 {% endblock %}

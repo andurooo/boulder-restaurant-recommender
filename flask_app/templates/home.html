@@ -49,7 +49,6 @@ button {
             border-color: cornflowerblue;
         }
 
-
 </style>
 
     <div class="main">
@@ -63,17 +62,25 @@ button {
 
 </div>
 
-
 </div>
     <center><div class="dropdown">
         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pick a restaurant you love
-        <span class="caret"></span></button>
-        <div id="myDropdown" class="dropdown-content"></div>         
-                <center><a href="Abos">Abo's Pizza</a></center>
-                <center><a href="Ados">Ado's Kitchen and Bar</a></center>
-                <center><a href="Akiyama">Akiyama Sushi Bar and Grill</a></center>
-                <center><a href="Alibaba">Alibaba Grill/<a></center>
+        <!-- <span class="caret"></span></button> -->
+        <div id="myDropdown" class="dropdown-content"></div> 
+        <body>
+          <form action="recs" method='POST'>
+          <font color="black"><select name= name method="POST" action="/">
+            {% for name in names %}
+            <option value= "{{name}}" SELECTED><center>{{ name }}</center></option>"</font>
+            {% endfor %}
+
+          </select>
+         
             </ul>
-        </div></center>
+   
+          </div></center>
+          
+          <center><input type="submit" value="Submit"></center> 
+          </form>
 
 {% endblock %}

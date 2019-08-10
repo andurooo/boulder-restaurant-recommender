@@ -26,7 +26,7 @@ With the startup's initial target market being Boulder, my objective was to:
 * Build a dynamic, recommender system using machine learning techniques
 
 ## Data
-### Processing
+### Cleaning & Processing
 Foursquare Places API: 
 [source](https://developer.foursquare.com/places-api)
 
@@ -38,13 +38,13 @@ To manipulate the data to a format I could use, it required JSON parsing through
 <img src='img/data_processing.png' | width=500>
 </p>
 
-After cleaning for chain restaurants, repeats, closures and one-offs, my final dataset was comprised of **318 restaurants and 78 categories**. Categories were associations a restaurant would be described as both in regards to the food it serves as well as attributes not related to food. For example, common categories were *Mexican, Italian, and salad*, and common attributes were *patio, happy hour, does delivery, and price tier*.
+Initially there were 661 venues in Boulder on Foursquare but after cleaning for chain restaurants, repeats, closures and one-offs, my final dataset was comprised of **318 restaurants and 78 categories**. Categories were associations a restaurant would be described as both in regards to the food it serves as well as attributes not related to food. For example, common categories were *Mexican, Italian, and salad*, and common attributes were *patio, happy hour, does delivery, and price tier*.
 
 <p align="center">
 <img src='img/data_table.png' | width=700>
 </p>
 
-<!-- | name        | american_restaurant | asian_restaurant |  ...  | patio | price_tier_4 | has_wifi |
+<!-- | name        | american_restaurant | asian_restaurant |  ...  | has_outdoor_seating | price_tier_4 | has_wifi |
 | :----------:|:-------------------:|:----------------:|  ---  |:-----:|:------------:|:--------:|
 | 3 Margaritas      | 0 | 0 | ... | 0 | 0 | 0 |
 | A Cup Of Peace    | 0 | 1 | ... | 1 | 0 | 0 |
