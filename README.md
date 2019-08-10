@@ -51,7 +51,9 @@ Initially there were 661 venues in Boulder on Foursquare but after cleaning for 
 | Abbys coffee   |  0 | 0 | ... | 0 | 0 | 0 | -->
 
 ### Exploratory Data Analysis (EDA)
+To understand the Foursquare data, I analyzed the categories and attributes represented in the Boulder restaurants. I looked at how common or uncommon categories were and explored relationships between numerical variables. Below are a few images providing an idea of the dataset. 
 
+The following were the most common categories in Boulder. I used soft clustering, which allows a restaurant to be labeled as more than one category, opening the posibility to be grouped under multiple clusters or latent topics (which I discuss more in the modeling section below). Salads and sandwiches were the most frequent. And ethnic-specific cuisines, such as Ethiopian, were the least frequent (which I did not include as an image).
 <p align="center">
 <img src='img/categories_count.png' | width=800>
 </p>
