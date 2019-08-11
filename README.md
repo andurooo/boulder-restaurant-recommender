@@ -115,6 +115,12 @@ add 9-dimensional cluster visual
 
 add link here and an image of the results
 
+<p align="center">
+<img src="img/app_home.png">
+
+<p align="center">
+<img src="img/app_recs.png">
+
 ## Future Considerations
 
 * If user ratings were accessible, use collaborative filtering method using restaurant-restaurant similarity as well as user-user similarity
