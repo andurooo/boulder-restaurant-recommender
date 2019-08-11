@@ -116,7 +116,7 @@ add 9-dimensional cluster visual
 add link here and an image of the results
 
 <p align="center">
-<img src="img/app_home.png">
+<img src="img/app_home1.png">
 
 <p align="center">
 <img src="img/app_recs.png">
