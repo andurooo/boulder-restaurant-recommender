@@ -128,7 +128,7 @@ After coming up with the latent topics, NMF provides loaded scores for each rest
 
 ## Web App
 
-To provide a web app users could interact with, I created a Dockerfile and pushed the image up to Docker Hub to connect with an AWS EC2 instance to host and deploy my Flask app. 
+To provide a web app users could interact with, I created a Dockerfile, tagged and pushed the image up to Docker Hub to connect with an AWS EC2 instance to host and deploy my Flask app. 
 
 Try out the app yourself: <link> 
 

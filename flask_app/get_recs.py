@@ -34,7 +34,7 @@ def get_cosine_sim(W):
 
 def get_recs(venue, cos_sim):   
     rest = venue.lower().replace(' ', '_')
-    return cos_sim[rest].sort_values(ascending=False).index[1:10] 
+    return cos_sim[rest].sort_values(ascending=False).index[1:4] 
 
 if __name__ == '__main__':
     with open('restaurant_df.pkl','rb') as f:
