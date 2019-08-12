@@ -6,7 +6,7 @@
 <img src='img/app_home.png'>
 </p>
 Flask App: 
-[link](https://developer.foursquare.com/places-api)
+[link]<link>
 
 ## Table of Contents
 1. [Background](#Background)
@@ -24,6 +24,11 @@ For my capstone project, I worked with an early-stage startup in Boulder whose m
 With the startup's initial target market being Boulder, my objective was to: 
 * Gather and explore data on Boulder restaurants
 * Build a dynamic, recommender system using machine learning techniques
+
+## Tech Stack
+<p align="center">
+<img src='img/tech_stack.png' | width=500>
+</p>
 
 ## Data
 ### Cleaning & Processing
@@ -137,7 +142,6 @@ Here's an example of the home and results pages:
 * If reliable text and description data were available, consider applications for NLP, tf-idf and LDA. 
 * Combine multiple approaches towards a robust, hybrid recommender. 
 
-## Tech Stack
-
 ## References
 
+Aggarwal, C. (2016). Recommender systems. New York: Springer.
