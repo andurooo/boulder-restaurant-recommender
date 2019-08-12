@@ -43,3 +43,8 @@ if __name__ == '__main__':
     cos_sim = get_cosine_sim(W)
     print(list(get_recs(sys.argv[1], cos_sim)))
     # get_recs("Illegal Pete's", cos_sim)
+
+    # To print out all of the latent topics with their top 3 restaurants and top 10 categories, uncomment the code below.
+    # for i in range(9):
+    #     print(i, W['latent_topic_' + str(i)].sort_values(ascending=False).iloc[:3])
+    #     print(H.T['latent_topic_' + str(i)].sort_values(ascending=False).iloc[:10], "\n")

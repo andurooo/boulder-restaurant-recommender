@@ -99,21 +99,31 @@ I selected my latent topics, k = 9. I plotted how the number of k influenced the
 <img src="img/k_rec_error.png">
 
 ### Soft Clustering
-One of the advantages of NMF is soft clustering. Allowing multiple category labels per restaurant allows a restaurant to fall under multiple clusters, and this leads to rich, unexpected groupings of restaurants under topics. This was key in adding a serendipitious component to the recommendations, along with relevance and novelty. 
+One of the advantages of NMF is soft clustering. Instead of strictly restricting each restaurant to be labeled as only one category or another, NMF allows multiple categories per restaurant. As a result, this allows a restaurant to fall under multiple clusters, which lead to rich, unexpected groupings of restaurants under topics. This was key in adding a serendipitious component to the recommendations, along with relevance and novelty. 
 
 ## Results
 
-### Latent Topics and top 3 restaurants, top 10 categories by topic
+### Latent Topics, Restaurants, and Categories
 
-add images
+Here are the 9 latent topics with the top three restaurants and top 5 categories for each topic. 
 
-### Used cosine similarity to identify closest restaurant. 
+<p align="center">
+<img src="img/latent_topics.png">
 
-add 9-dimensional cluster visual
+After seeing the topics, how do you think NMF did in creating the clusters? Personally, I think NMF did pretty well coming up with topics we would expect. You can observe the categories under each topic and come up with labels yourself - that part requires human judgment.
+
+### Cosine Similarity
+
+After coming up with the latent topics, NMF provides loaded score for each restaurant under each latent topics. Using the matrix W, I measured how similar each restaurant was to one another using cosine similarity. When a user inputs a restaurant, the web app provides the top three restaurants with the highest cosine similarity to the selected restaurant. 
   
+<p align="center">
+<img src="img/cos_sim.png">
+
 ## Web App
 
-add link here and an image of the results
+Try out the app yourself: <link> 
+
+Here's an example of the home and results pages:
 
 <p align="center">
 <img src="img/app_home1.png">
@@ -123,9 +133,9 @@ add link here and an image of the results
 
 ## Future Considerations
 
-* If user ratings were accessible, use collaborative filtering method using restaurant-restaurant similarity as well as user-user similarity
-* With good text data, use NLP, tf-idf, LDA 
-* combine approaches towards a hybrid method to come up with more robust recommendation that capture multiple angles
+* If user ratings were accessible, consider using collaborative filtering method leveraging restaurant-restaurant and user-user similarity.
+* If reliable text and description data were available, consider applications for NLP, tf-idf and LDA. 
+* Combine multiple approaches towards a robust, hybrid recommender. 
 
 ## Tech Stack
 
