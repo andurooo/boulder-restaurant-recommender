@@ -29,7 +29,7 @@ With the startup's initial target market being Boulder, my objective was to:
 
 ## Tech Stack
 <p align="center">
-<img src='img/tech_stack.png' | width=500>
+<img src='img/tech_stack.png' | width=800>
 </p>
 
 ## Data
@@ -121,7 +121,7 @@ After seeing the topics, how do you think NMF did in creating the clusters? Pers
 
 ### Cosine Similarity
 
-After coming up with the latent topics, NMF provides loaded score for each restaurant under each latent topics. Using the matrix W, I measured how similar each restaurant was to one another using cosine similarity. When a user inputs a restaurant, the web app provides the top three restaurants with the highest cosine similarity to the selected restaurant. 
+After coming up with the latent topics, NMF provides loaded scores for each restaurant under each latent topics. Using the matrix W, I measured how similar each restaurant was to one another using cosine similarity. When a user inputs a restaurant, the web app provides the top three restaurants with the highest cosine similarity to the selected restaurant. 
   
 <p align="center">
 <img src="img/cos_sim.png">
