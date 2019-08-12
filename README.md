@@ -2,6 +2,8 @@
 # Exploring Boulder Restaurants
 ********************
 
+_Last Updated: 08/11/2019_
+
 <p align="center">
 <img src='img/app_home.png'>
 </p>
@@ -128,7 +130,7 @@ After coming up with the latent topics, NMF provides loaded score for each resta
 
 Try out the app yourself: <link> 
 
-Here's an example of the home and results pages:
+Here's an example of the home and recommendation pages:
 
 <p align="center">
 <img src="img/app_home1.png">
