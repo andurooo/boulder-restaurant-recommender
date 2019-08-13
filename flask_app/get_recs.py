@@ -37,7 +37,7 @@ def get_recs(venue, cos_sim):
     return cos_sim[rest].sort_values(ascending=False).index[1:4] 
 
 if __name__ == '__main__':
-    with open('restaurant_df.pkl','rb') as f:
+    with open('../data/restaurant_df.pkl','rb') as f:
         df = pickle.load(f)
     W, H = get_latent_topics(df)
     cos_sim = get_cosine_sim(W)

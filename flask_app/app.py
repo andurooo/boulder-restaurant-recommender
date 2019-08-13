@@ -1,12 +1,12 @@
 from flask import Flask, render_template 
 from flask import Flask, redirect, url_for, request
 import pandas as pd
-import get_recs
 import pickle
+import get_recs
 
 app = Flask(__name__)
 
-with open('restaurant_df.pkl','rb') as f:
+with open('../data/restaurant_df.pkl','rb') as f:
     df = pickle.load(f)
 
 @app.route("/", methods=['GET','POST'])
