@@ -2,7 +2,7 @@
 # Exploring Boulder Restaurants
 ********************
 
-_Last Updated: 08/11/2019_
+_Last Updated: 08/13/2019_
 
 <p align="center">
 <img src='img/app_home.png'>
