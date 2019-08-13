@@ -7,8 +7,8 @@ _Last Updated: 08/11/2019_
 <p align="center">
 <img src='img/app_home.png'>
 </p>
-Flask App:[link](http://localhost:8000 "App")
 
+Flask App: [link] (http://localhost:8000)
 
 ## Table of Contents
 1. [Background](#Background)
