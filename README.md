@@ -8,7 +8,7 @@ _Last Updated: 08/13/2019_
 <img src='img/app_home.png'>
 </p>
 
-Flask App: [App](http://0.0.0.0:8000/)
+Flask App: [App](http:localhost:8000/)
 
 ## Table of Contents
 1. [Background](#Background)
@@ -130,7 +130,7 @@ After coming up with the latent topics, NMF provides loaded scores for each rest
 
 To provide a web app users could interact with, I created a Dockerfile, tagged and pushed the image up to Docker Hub to connect with an AWS EC2 instance to host and deploy my Flask app. 
 
-Try out the app yourself: [App](http://0.0.0.0:8000/)
+Try out the app yourself: [App](http:localhost:8000/)
 
 Here's an example of the home and recommendation pages:
 
