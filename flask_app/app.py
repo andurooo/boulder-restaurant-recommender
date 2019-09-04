@@ -6,7 +6,7 @@ import get_recs
 
 app = Flask(__name__)
 
-with open('../data/restaurant_df.pkl','rb') as f:
+with open('restaurant_df.pkl','rb') as f:
     df = pickle.load(f)
 
 @app.route("/", methods=['GET','POST'])
@@ -24,4 +24,4 @@ def recs():
     return render_template("recs.html", recs=recs)
 
 if  __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
+    app.run(host='0.0.0.0', port=8000, debug=True, threaded=True)
