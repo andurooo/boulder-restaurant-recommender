@@ -67,9 +67,6 @@ The following were the most common categories in Boulder. I used soft clustering
 
 To explore the correlational relationships between variables, I explored the numerical data I had through Foursquare. They were ratings, likes, tips, listed and photos. After plotting a scatterplot matrix, I saw there was a strong positive correlation amongst the numerical variables. 
 
-<p align="center">
-<img src="img/scattermatrix.png">
-
 So instead of using all of them, I chose ratings to observe how the distribution of a numerical variable differed by price tier. 
 <p align="left">
 <img src='img/ratings_pricetier.png' | width=800>
